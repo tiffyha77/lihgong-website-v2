@@ -1,0 +1,9 @@
+/*全站字型與背景色*/
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8; /*淡灰藍色調, 科技感*/
+    color: #1a1a1a; /*深灰文字*/
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
