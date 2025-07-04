@@ -9,9 +9,9 @@ body {
 }
 
 header {
-    background-color: #1f2a36;
-    color: #fff;
-    padding: 1.2px;
+  background-color: #3a6c84; /* 或換成 #6c8192 試看看 */
+  color: white;
+  padding: 1.2em;
 }
 
 .container{
