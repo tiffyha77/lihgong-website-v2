@@ -1,3 +1,9 @@
+:root {
+    --primary: #3a6c84; /*主色：科技藍綠*/
+    --accent: #5cbf77; /*強調色（按鈕hover色):亮綠色*/
+    --bg: #f0f4f8; /*背景色: 淡灰藍色*/
+}
+
 /*全站字型與背景色*/
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, Helvetica, sans-serif;
@@ -9,7 +15,7 @@ body {
 }
 
 header {
-  background-color: #3a6c84; /* 或換成 #6c8192 試看看 */
+  background-color: #3a6c84; /*調整header為科技藍綠色*/
   color: white;
   padding: 1.2em;
 }
@@ -18,4 +24,22 @@ header {
  max-width: 1000px;
 margin: 0 auto; /*置中*/
 padding: 0 20px;
+}
+
+h1, h2 {
+    color: var(--primary);
+}
+
+button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 0.6em 1.2em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--accent);
 }
