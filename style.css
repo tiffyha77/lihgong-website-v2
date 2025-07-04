@@ -13,3 +13,9 @@ header {
     color: #fff;
     padding: 1.2px;
 }
+
+.container{
+ max-width: 1000px;
+margin: 0 auto; /*置中*/
+padding: 0 20px;
+}
